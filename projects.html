@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <link rel="stylesheet" href="./style/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,54 +9,67 @@
 </head>
 <body>
     <section class="header">
-        <h1>Projects</h1>
-        <nav class="header-nav">
-            <a href="index.html"><button>Home</button></a>
-            <a href="about.html"><button>About</button></a>
-            <a href="projects.html"><button>Projects</button></a>
-            <a href="contact.html"><button>Contact</button></a>
-        </nav>
+        <div> 
+            <h1>Projects</h1>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <a href="index.html" class="button1">Home</a>
+                <a href="about.html" class="button2">About</a>
+                <a href="projects.html" class="button3">Projects</a>
+                <a href="contact.html" class="button4">Contact</a>
+            </nav>
+        </div>
     </section>
     
-    <section class="body">
-        <h2>Past and Current</h2>
+    <section>
+        <div class="body">
+            <h2>Past and Current</h2>
        
-        <p>Info about my projects goes here.</p>
-        <div class="bigimage">
-            <img src="https://picsum.photos/600" alt="random picture">
-        </div>
+            <span class="bodycontent">Info about my projects goes here.</span>
+            
+            <div class="bigimage">
+                <img src="https://picsum.photos/600" alt="random picture">
+            </div>
     
     
-        <div class="images">
-            <div>
-                <img src="https://picsum.photos/300" alt="random picture">
+            <div class="images">
+                <div class="img">
+                    <img src="https://picsum.photos/150" alt="random picture">
+                </div>
+                <div class="img">
+                    <img src="https://picsum.photos/150" alt="random picture">
+                </div>
+                <div class="img">
+                    <img src="https://picsum.photos/150" alt="random picture">
+                </div>
+                <div class="img">
+                    <img src="https://picsum.photos/150" alt="random picture">
+                </div>
+                <div class="imgtext">
+                    <span>This text describes the random images.</span>
+                </div>
             </div>
-            <div>
-                <img src="https://picsum.photos/300" alt="random picture">
-            </div>
-            <div>
-                <img src="https://picsum.photos/300" alt="random picture">
-            </div>
-            <div>
-                <img src="https://picsum.photos/300" alt="random picture">
-            </div>
-            <span>This text describes the random images.</span>
         </div>
     </section>
 
-    <section class="footer">
-        <a href="contact.html"><button>Contact Me!</button></a>
-        <nav class="footer-nav">
-            <div>
-                <a href="https://www.facebook.com/kassie.leigh.161" target="_blank"><img src="icons\fb.png" alt="facebook logo"></a>
+    <section>
+        <div class="footer">
+            <div class="contactme">
+                <a href="contact.html" class="bt">Contact Me!</a>
             </div>
-            <div>   
-                <a href="https://www.instagram.com/ackb2u/" target="_blank"><img src="icons\ig.png" alt="instagram logo"></a>
-            </div>
-            <div>
-                <a href="https://twitter.com/kassieleigh91" target="_blank"><img src="icons\tw.png" alt="twitter logo"></a>
-            </div>
-        </nav>
+            <nav class="footer-nav">
+                <div class="fblogo">
+                    <a href="https://www.facebook.com/kassie.leigh.161" target="_blank"><img src="icons\fb.png" alt="facebook logo"></a>
+                </div>
+                <div class="iglogo">   
+                    <a href="https://www.instagram.com/ackb2u/" target="_blank"><img src="icons\ig.png" alt="instagram logo"></a>
+                </div>
+                <div class="twlogo">
+                    <a href="https://twitter.com/kassieleigh91" target="_blank"><img src="icons\tw.png" alt="twitter logo"></a>
+                </div>
+            </nav>
+        </div>    
     </section>
 </body>
 </html>
