@@ -2,5 +2,8 @@
 /*Header CSS starts---*/
 h1 {
     font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
+    text-align: right;
+    background-color: mediumturquoise;
+    color: purple;
 }
