@@ -138,6 +138,7 @@ div.projectsbutton {
 
 a.bt {
     color: cyan;
+    text-decoration: none;
 }
 /* image CSS ends--- */
 /* footer CSS starts--- */
@@ -150,6 +151,12 @@ div.contactme {
     border: 3px ridge cyan;
     background-color: darkmagenta;
     color: cyan;
-    padding: 8px;
-    margin: 10px;
+    padding: 15px;
+    margin: 50px 600px 20px 600px;
+    text-align: center;
+}
+
+nav.footer-nav {
+    display: flex;
+    justify-content: center;
 }
