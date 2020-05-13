@@ -1,1 +1,6 @@
 /* Add CSS styling here */
+/*Header CSS starts---*/
+h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
