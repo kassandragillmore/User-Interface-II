@@ -93,8 +93,8 @@ div.address {
 
 div.bigimage {
     display: flex;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: center;
+    width: 100%
 }
 /* section body CSS ends--- */
 /* image CSS starts--- */
