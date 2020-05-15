@@ -1,5 +1,7 @@
 /* Add CSS styling here */
-
+html {
+    font-size: 62.5%;
+  }
 /* body CSS starts--- */
 body {
     border: 6px double darkmagenta;
@@ -8,13 +10,15 @@ body {
 
 /* Header CSS starts--- */
 h1 {
-    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
     letter-spacing: 15px;
     text-align: center;
     background-color: cyan;
     color: darkmagenta;
     font-family: Sofia;
-    padding: 15px;
+    padding: 20px;
     margin: 75px;
 }
 /* Header CSS ends--- */
@@ -22,12 +26,24 @@ h1 {
 div.header-nav {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+
+.bigimage {
+    display: flex; 
+    justify-content: center; 
+    align-items: stretch;
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+
 }
 
 a.button1, a.button3 {
     font-family: Sofia;
     border-radius: 50%;
-    font-size: 20px;  
+    font-size: 2rem;  
     border: 3px ridge darkmagenta;
     background-color: cyan;
     color: darkmagenta;
@@ -38,7 +54,7 @@ a.button1, a.button3 {
 a.button2, a.button4 {
     font-family: Sofia;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 2rem;
     border: 3px ridge cyan;
     background-color: darkmagenta;
     color: cyan;
@@ -49,7 +65,7 @@ a.button2, a.button4 {
 /* section body CSS starts--- */
 h2 {
     font-family: Sofia;
-    font-size: 30px;
+    font-size: 3rem;
     color: cyan;
     background-color: darkmagenta;
     padding: 15px;
@@ -59,7 +75,7 @@ h2 {
 
 span.bodycontent {
     font-family: Sofia;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: darkmagenta;
     margin: 50px;  
     display: flex;
@@ -70,7 +86,7 @@ div.contactinfo {
     display: flex;
     justify-content: center;
     font-family: Sofia;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: darkmagenta;
 }
 
@@ -91,11 +107,11 @@ div.address {
     margin-bottom: 75px;
 }
 
-div.bigimage {
-    display: flex;
+/* div.bigimage {
+    display: flex; 
     justify-content: center;
-    width: 100%
-}
+    width: 100%;
+} */
 /* section body CSS ends--- */
 /* image CSS starts--- */
 div.images {
@@ -117,7 +133,7 @@ div.imgtext {
     justify-content: right;
     flex-flow: row nowrap;
     font-family: Sofia;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: darkmagenta;
     margin-top: 50px;
 }
@@ -128,7 +144,7 @@ div.projectsbutton {
     color: cyan;
     font-family: Sofia;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 2rem;
     border: 3px ridge cyan;
     background-color: darkmagenta;
     padding: 15px;
@@ -147,7 +163,7 @@ div.contactme {
     justify-content: center;
     font-family: Sofia;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 2rem;
     border: 3px ridge cyan;
     background-color: darkmagenta;
     color: cyan;
@@ -159,4 +175,37 @@ div.contactme {
 nav.footer-nav {
     display: flex;
     justify-content: center;
+}
+/* footer CSS ends--- */
+@media(max-width: 800px){
+    h1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 3rem;
+        letter-spacing: 0px;
+        padding: 15px;
+        margin: 50px;        
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    div.contactme {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 500px){
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
 }
